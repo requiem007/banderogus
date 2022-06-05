@@ -222,9 +222,49 @@ body{
 .modal-button{
     display: inline-block;
     width: 172px;
-    margin-top: 40px;
-    
+    margin-top: 40px; 
 }
 
+
+
+/* modal 2 */
+
+.done-wrapper{
+    position: relative;
+    max-width: 1360px;
+	overflow: hidden;
+    margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+    padding: 268px 393px;
+    background: rgb(98, 99, 99);
+}
+.done-container{
+    display: flex;
+    width:573px; 
+    height: 232px;
+    text-align: center;
+    background: var(--main-background-color);
+    color: #000;    
+    padding-top: 24px;
+    padding-left: 65px;
+    padding-bottom: 55px;
+}
+.done-close{
+    position: absolute;
+    left: 919px;
+    top: 292px;
+}
+.done-gerb{
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+.done__sub-title{
+    margin-bottom: 12px;
+}
+.done-text{
+    margin-top: 12px;    
+}
 
 
