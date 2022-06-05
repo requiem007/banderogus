@@ -163,7 +163,7 @@ body{
     margin: 0 auto;  
 }
 .modal-container {
-    width:573px;   
+    width:573px;  
 }
 .modal__gerb{
     margin-top: 32px;
@@ -174,14 +174,20 @@ body{
     color: #000;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 60px;
 }   
 .text-field {
     display: block;
     text-align: left;
     margin-bottom: 16px; 
 }
-
-
+.field{
+    margin-bottom: 40px;
+}
+.close{
+    margin-left: 425px;
+    
+}
 .input {
     font-size: 30px;
     width: 374px;
