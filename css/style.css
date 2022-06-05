@@ -175,6 +175,7 @@ body{
     
     display: flex;
     width:573px; 
+    height: 524px;
     text-align: center;
     background: var(--main-background-color);
     color: #000;    
@@ -204,9 +205,12 @@ body{
 .text-field {
     display: block;
     text-align: left;
-    height: 80px; 
+    height: 80px;
+    margin-bottom: 16px;
 }
-
+.mail-field{
+    margin-bottom: 0;
+}
 .input {
     font-size:30px;
     width: 374px;
@@ -215,7 +219,12 @@ body{
     border: 1px solid #005BBB;
     border-radius: 8px;
 }
-
+.modal-button{
+    display: inline-block;
+    width: 172px;
+    margin-top: 40px;
+    
+}
 
 
 
