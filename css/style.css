@@ -50,7 +50,7 @@ body{
 	margin: 0px auto;
 }
 .wrapper {
-    max-width: 1360px;
+    width: 1360px;
 	overflow: hidden;
     margin: 0px auto;
 	display: flex;
@@ -152,7 +152,7 @@ body{
     padding-bottom: 72px;
 }
 .footer-container{
-    max-width: 1170px;
+    width: 1170px;
     text-align: center;
     padding: 72px 148px;
     background:var(--gradient-background-color);
@@ -163,8 +163,6 @@ body{
 
 /* modal 1 */
 .modal-wrapper{
-    position: relative;
-    max-width: 1360px;
 	overflow: hidden;
     margin: 0px auto;
 	display: flex;
@@ -176,6 +174,8 @@ body{
 .modal-container {
     margin: 0px auto;
     display: flex;
+    flex-direction: column;
+    position: relative;
     width:573px; 
     height: 524px;
     text-align: center;
@@ -185,12 +185,12 @@ body{
 }
 .close{
     position: absolute;
-    left: 919px;
-    top: 146px;
+    right: 24px;
+    top: 24px;
 }
 .modal__gerb{ 
-    margin-top: 8px;
-    margin-bottom: 32px;
+    width: 32px;
+    margin: 0px auto 32px;
 }
 .modal__sub-title{
     margin-bottom: 12px;
@@ -222,9 +222,9 @@ body{
     border-radius: 8px;
 }
 .modal-button{
-    display: inline-block;
+    display: block;
     width: 172px;
-    margin-top: 40px; 
+    margin: 40px auto 60px; 
 }
 
 
@@ -232,8 +232,6 @@ body{
 /* modal 2 */
 
 .done-wrapper{
-    position: relative;
-    max-width: 1360px;
 	overflow: hidden;
     margin: 0px auto;
 	display: flex;
@@ -244,29 +242,28 @@ body{
 }
 .done-container{
     display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
     width:573px; 
     height: 232px;
     text-align: center;
     background: var(--main-background-color);
-    color: #000;    
-    padding-top: 24px;
-    padding-left: 65px;
-    padding-bottom: 55px;
+    color: #000;  
+    padding: 32px 64px 56px;  
+    
 }
 .done-close{
     position: absolute;
-    left: 919px;
-    top: 292px;
+    right: 24px;
+    top: 24px;
 }
 .done-gerb{
-    margin-top: 8px;
-    margin-bottom: 32px;
+    width: 32px;
+    margin: 0px auto 32px;
 }
 .done__sub-title{
     margin-bottom: 12px;
-}
-.done-text{
-    margin-top: 12px;    
 }
 
 
